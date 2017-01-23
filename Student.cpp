@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <Student.h>
+#include "Student.h"
 using namespace std;
 
 Student::Student() {
@@ -12,7 +12,7 @@ void Student::setStudentFname(string fname){
 	StudentFname = fname;
 }
 void Student::setStudentLname(string lname){
-	StudentLname = Lname;
+	StudentLname = lname;
 }
 void Student::setStudentID(int SID){
 	StudentID = SID;

@@ -34,7 +34,7 @@ int main()
 	A.setStudentID(a3);
 
 	B.setStudentFname(b1);
-	B.setStudentLname(b1);
+	B.setStudentLname(b2);
 	B.setStudentID(a3);
 
 	C.setStudentFname(c1);
@@ -53,15 +53,15 @@ int main()
 	StudentVector.push_back (D);
 
 	
-	for(x=0; x<StudentVector.size(); x++){
+	for(int x=0; x<StudentVector.size(); x++){
 
-		cout << "Student name is: " << StudentVector[x].getName() << endl << endl << "Student ID is: " << StudentVector[x].getID();
+		cout << endl << "Student name is: " << StudentVector[x].getName() << endl << endl << "Student ID is: " << StudentVector[x].getID() << endl << endl;
 
 	}
 
 int temp = 0;
 
-cout << endl << endl << "enter 0 to end program";
+cout << endl << endl << "enter 0 to end program: ";
 cin >> temp;
 
 return temp;
