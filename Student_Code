@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include "Student.h"
+using namespace std;
+
+int main()
+{
+	vector<Student> StudentVector;
+
+	Student A;
+	Student B;
+	Student C;
+	Student D;
+
